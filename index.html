@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CS355 Website</title>
+    <script src="https://www.googleapis.com/customsearch/v1?key=YOUR-KEY&cx=017576662512468239146:omuauf_lfve&q=cars&callback=hndlr"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type = "text/javascript" src = "script.js" async></script>
+    
+
+</head>
+<body>
+    <nav id="main-nav">
+        <div class="container">
+            <a href="#" id="homeclick">S.A.R.A.</a>
+            <div id="sidemenu">
+                <ul id="items">
+                    <!--<li class="mitem"><button>Course</button></li>-->
+                    <li class="mitem"><button>Course</button>
+
+                        <div class="subitems">
+                            <ul>
+                                <li><a href="https://learn.zybooks.com/zybook/CUNYCSCI355TeitelmanSpring2019"
+                                    >Zybook</a></li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mitem"><button>Search</button>
+                    <!--<div class="subitems"></div> -->
+                        <div class="subitems">
+                            <ul>
+                                <li id="hardcode">Hard-Coded Results</li>
+                                <li id="filesearch">File Search</li>
+                                <li id="googlesearch">Google Search</li>
+                                <li id="customsearch">Custom Search</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mitem"><button>Browser</button>
+                        <div class="subitems">
+                            <ul>
+                                <li id="browserinfo">Browser</li>
+                                <li id="windowinfo">Window</li>
+                                <li id="screeninfo">Screen</li>
+                                <li id="locationinfo">Location</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="mitem"><button>About</button>
+                        <div class="subitems">
+                            <ul>
+                                <li id="dev">Developers</li>
+                                <li id="contact">Contact Us</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" id="menu-button">
+                <div class="hamb"></div>
+                <div class="hamb"></div>
+                <div class="hamb"></div>
+            </a>
+        </div>
+    </nav>
+    <section id="main-content">
+        <div id="searchcontain">
+            <input type="text" name="search" id="searchbar" placeholder="Coding">
+            <button type="submit" id="submitsearch">Search</button>
+        </div>
+
+    </section>
+
+    <footer id="main-footer">
+        <p>Copyright &copy 2019 Paul Pluszczewicz</p>
+    </footer>
+    
+</body>
+</html>
