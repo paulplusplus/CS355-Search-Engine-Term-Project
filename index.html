@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>CS355 Website</title>
-    <script src="https://www.googleapis.com/customsearch/v1?key=YOUR-KEY&cx=017576662512468239146:omuauf_lfve&q=cars&callback=hndlr"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script type = "text/javascript" src = "script.js" async></script>
-    
-
+    <script type="module" src = "js/script.js" ></script>
 </head>
 <body>
     <nav id="main-nav">
         <div class="container">
             <a href="#" id="homeclick">S.A.R.A.</a>
+            
+            
+        <div id="searchcontain">
+            <input type="text" name="search" id="searchbar" placeholder="Coding">
+            <button type="submit" id="submitsearch">Search</button>
+        </div>
+    
+
             <div id="sidemenu">
                 <ul id="items">
                     <!--<li class="mitem"><button>Course</button></li>-->
@@ -67,16 +71,12 @@
             </a>
         </div>
     </nav>
-    <section id="main-content">
-        <div id="searchcontain">
-            <input type="text" name="search" id="searchbar" placeholder="Coding">
-            <button type="submit" id="submitsearch">Search</button>
-        </div>
-
-    </section>
+    
+    
+    <section id="main-content"></section>
 
     <footer id="main-footer">
-        <p>Copyright &copy 2019 Paul Pluszczewicz</p>
+        <p>Copyright &copy; 2019 Paul Pluszczewicz</p>
     </footer>
     
 </body>

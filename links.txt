@@ -1,0 +1,43 @@
+1.
+Hour of Code - Learn | Code.org
+https://code.org/learn
+AlgoBot: Coding Action. Grades 2-8 | Language independent (can be taught in multiple languages). 
+GameCode: Conditions in a video game. Grades 6+ | Blocks.
+
+2.
+Learn Coding Today | NoviceDev
+https://novicedev.com/learn
+Interested in learning how to code? Start today - for free!
+
+3.
+Learning coding on Khan Academy (article) | Khan Academy
+https://www.khanacademy.org/computing/hour-of-code/hour-of-drawing-code/a/how-we-teach-coding-on-ka
+Read and learn for free about the following article: Learning coding on Khan Academy.
+
+4.
+Hour of Code | Coding Adventure | CodeMonkey
+https://www.playcodemonkey.com/blog/hour-of-code/coding-adventure/
+Coding Adventure is an intuitive and fun coding game that teaches the basics of computer coding for kids. 
+Kids as young as 7 years old can learn how to code.
+
+5.
+What I've Learned from a year of coding – freeCodeCamp.org
+https://medium.freecodecamp.org/what-ive-learned-from-a-year-of-coding-bf39c5823e9b
+I also developed an interest in websites and how they're built. But while I thought they were cool, I assumed coding was not for me. This year, I ...
+Local Results
+
+6.
+What is Coding?Computer Science Degree Hub
+https://www.computersciencedegreehub.com/faq/what-is-coding/
+Coding is basically the computer language used to develop apps, websites and software.
+
+7.
+How to get started coding? | Codechallenges.org
+https://www.codechallenges.org/get-started/
+New to coding? Start here with our free program!
+
+8.
+Looking for a challenge? | Codechallenges.org
+https://www.codechallenges.org/challenge-start-here/
+Are you an experienced developer? Begin challenging yourself and developing your skills!
+
