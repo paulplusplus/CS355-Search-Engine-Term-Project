@@ -6,7 +6,10 @@ var stateObj;
 var x = document.getElementById("main-content");
 //x.style.backgroundColor = "rgba(40, 30, 30, 0.92)";
 
-if(window.innerWidth < 800) document.getElementById("sidemenu").style.display = "none";
+if(window.innerWidth < 800) {
+    document.getElementById("sidemenu").style.display = "none";
+} else document.getElementById('menu-button').style.display="none";
+
 
 document.getElementById("submitsearch").addEventListener("click", displayResults);
 document.getElementById("menu-button").addEventListener("click", openSideMenu);
